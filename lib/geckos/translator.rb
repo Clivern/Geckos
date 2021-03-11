@@ -1,4 +1,4 @@
-module Lynx
+module Geckos
   class Translator
     def initialize(language = "english")
       @language = language

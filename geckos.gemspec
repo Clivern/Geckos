@@ -1,17 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "lynx/version"
+require "geckos/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "lynx"
-  spec.version       = Lynx::VERSION
+  spec.name          = "geckos"
+  spec.version       = Geckos::VERSION
   spec.authors       = ["Clivern"]
   spec.email         = ["hello@clivern.com"]
 
   spec.summary       = %q{Summary goes here.}
   spec.description   = %q{Summary goes here.}
-  spec.homepage      = "https://github.com/clivern/lynx"
+  spec.homepage      = "https://github.com/clivern/geckos"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   if spec.respond_to?(:metadata)
     # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/clivern/lynx"
-    spec.metadata["changelog_uri"] = "https://github.com/clivern/lynx"
+    spec.metadata["source_code_uri"] = "https://github.com/clivern/geckos"
+    spec.metadata["changelog_uri"] = "https://github.com/clivern/geckos"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."

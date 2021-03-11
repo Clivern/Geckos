@@ -6,7 +6,7 @@ RAKE        ?= rake
 
 help: Makefile
 	@echo
-	@echo " Choose a command run in Lynx:"
+	@echo " Choose a command run in Geckos:"
 	@echo
 	@sed -n 's/^##//p' $< | column -t -s ':' |  sed -e 's/^/ /'
 	@echo
